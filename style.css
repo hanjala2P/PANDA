@@ -1,0 +1,80 @@
+:root{
+    --search-bg: #f1f1f1;
+    --white:#ffffff;
+    --black:#1F1F1F;
+    --sections-bg: #f4f4f4;
+    --secondary-color:#fff2f1;
+    --primary-color:#FF136F;
+    --btn-color:linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+    --cat1-bg-color:linear-gradient(152deg, #FF9C35 1.47%, #FFD019 97.17%);
+    --cat2-bg-color: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    --cat3-bg-color: linear-gradient(170deg, #4289FF -10.89%, #3F07F8 92.77%);
+    --link-color:#FF9D00;
+    --ash:#ccc;
+  
+
+
+}
+.body-font{
+    color: #4E4E4E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    text-align: center;
+}
+.link{
+    color: #FF9D00;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+    
+h1{
+color: #1F1F1F;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+h2{
+    color: #1F1F1F;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+h3{
+    color: #1F1F1F;
+font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+h4{
+     color: #1F1F1F;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+h5{
+color: #1F1F1F;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.cart-img{
+    width: 336px;
+height: 202px;
+}
