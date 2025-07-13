@@ -8,16 +8,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 </head>
 <body>
     <header>
         <nav>
-            <div class="nav-left">
+           
+             <div class="nav-left">
                 <img src="assets/Frame 87.png" alt=" company logo">
                 <h2>Panda</h2>
             </div>
+           
             <div class="nav-center">
-                    <input class="searchbar" type="text"  placeholder="Search here...">
+                    <input class="searchbar" img type="text"  placeholder="Search here..." >
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
             </div>
             <div class="nav-right">
                 <ul>
@@ -30,68 +35,71 @@
             </div>
         </nav>
         <!-- nav end here -->
-        <section>
+        <section class="hero">
           <div class="hero-left">
               <h1>Mi LED TV 4A PRO 32</h1>
-            <P class="body-font">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</P>
+            <P class="body-font2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</P>
             <p class="hero-price">$1289</p>
             <button class="hero-cta">Buy Now <img src="assets/arrow.png" alt=""></button>
           </div>
           <div class="hero-right">
-            <img src="assets/" alt="">
+            <img class="hero-img"  src="assets/images/banner-images/tv.png" alt="">
           </div>
         </section>
-        <!-- heron end here -->
+        <!-- hero end here -->
     </header>
   
 
     <main>
         <section class="category">
             <h2>Category</h2>
-            <div class="category1">
+            <div class="carts">
+                <div class="category1">
                 <p>Watch</p>
-                <img src="assets/images/categories/watch.png" alt="">
+                <img class="cat-watch" src="assets/images/categories/watch.png" alt="">
             </div>
             <div class="category2">
                   <p>Bag</p>
-                <img src="assets/images/categories/bag.png" alt="">
+                <img class="cat-bag" src="assets/images/categories/bag.png" alt="">
             </div>
             <div class="category3">
                   <p>Shoes</p>
-                <img src="assets/images/categories/shoes.png" alt="">
+                <img class="cat-shoe" src="assets/images/categories/shoes.png" alt="">
+            </div>
             </div>
         </section>
         <!-- category section end here -->
-         <section class="shoes">
+        <section class="proucts">
+            <section class="shoes">
             <div class="sec-name">
                 <h2>Shoes</h2>
-                <p>See all</p>
+                <p class="see-more">See all</p>
             </div>
            <div class="carts">
              <div class="cart">
                 <img class="cart-img" src="assets/images/shoes/shoe-1.png" alt="shoes 1">
                 <h5>Reebok Dart Men’s Shoes</h5>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-                <p>$1278</p>
-                <button>Buy now <img  src="assets/arrow.png" alt=""></button>
+                <p class="body-font2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <p class="cart-price">$1278</p>
+                <button class="buy-btn">Buy now </button>
                 
                 </div>
                 <!-- cart 1 end -->
                 <div class="cart">
                 <img class="cart-img" src="assets/images/shoes/shoe-2.png" alt="shoes 1">
                 <h5>Reebok Dart Men’s Shoes</h5>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-                <p>$1278</p>
-                <button>Buy now <img  src="assets/arrow.png" alt=""></button>
+                <p class="body-font2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <p class="cart-price">$1278</p>
+                <button  class="buy-btn">Buy now </button>
                 
                 </div>
                 <!-- cart 2 end -->
                  <div class="cart">
                 <img class="cart-img" src="assets/images/shoes/shoe-3.png" alt="shoes 1">
                 <h5>Reebok Dart Men’s Shoes</h5>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-                <p>$1278</p>
-                <button>Buy now <img  src="assets/arrow.png" alt=""></button>
+                <p class="body-font2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <p class="cart-price">$1278</p>
+                <button  class="buy-btn">Buy now </button>
                 
                 </div>
                 <!-- cart 3 end -->
@@ -105,33 +113,33 @@
          <section class="bag">
             <div class="sec-name">
                 <h2>Beg Pack</h2>
-                <p>See all</p>
+                <p class="link">See all</p>
             </div>
            <div class="carts">
              <div class="cart">
                 <img class="cart-img" src="assets/images/bags/bag-1.png" alt="shoes 1">
                 <h5>Reebok Dart Men’s Shoes</h5>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-                <p>$1278</p>
-                <button>Buy now <img  src="assets/arrow.png" alt=""></button>
+                <p class="body-font2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <p class="cart-price">$1278</p>
+                <button  class="buy-btn">Buy now </button>
                 
                 </div>
                 <!-- cart 1 end -->
                 <div class="cart">
                 <img class="cart-img" src="assets/images/bags/bag-2.png" alt="shoes 1">
                 <h5>Reebok Dart Men’s Shoes</h5>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-                <p>$1278</p>
-                <button>Buy now <img  src="assets/arrow.png" alt=""></button>
+                <p class="body-font2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <p class="cart-price">$1278</p>
+                <button  class="buy-btn">Buy now </button>
                 
                 </div>
                 <!-- cart 2 end -->
-                 <div class="cart">
+                <div class="cart">
                 <img class="cart-img" src="assets/images/bags/bag-3.png" alt="shoes 1">
                 <h5>Reebok Dart Men’s Shoes</h5>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-                <p>$1278</p>
-                <button>Buy now <img  src="assets/arrow.png" alt=""></button>
+                <p class="body-font2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <p class="cart-price">$1278</p>
+                <button  class="buy-btn">Buy now </button>
                 
                 </div>
                 <!-- cart 3 end -->
@@ -139,6 +147,7 @@
 
          </section>
          <!-- bag section end here -->
+        </section>
 
     </main>
 
@@ -149,8 +158,8 @@
         </div>
         <div class="email">
             <label for="email"></label>
-            <input type="email">
-            <input type="submit" name="email">
+            <input  id="email" type="email" placeholder="Enter your email" >
+            <input id="email-btn" type="submit" name="email">
         </div>
     </footer>
 
